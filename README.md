@@ -104,6 +104,7 @@ weather-app/
 │   └── public/
 │
 └── README.md
+```
 
 🛡️ Environment & Security
 
