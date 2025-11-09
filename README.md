@@ -73,6 +73,7 @@ The app will run on
 Request:
 GET http://localhost:8081/api/weather?city=Delhi
 
+```
 Sample Response:
 {
   "city": "Delhi",
@@ -85,6 +86,8 @@ Sample Response:
   "windSpeed": 3.6,
   "visibility": 3.0
 }
+
+```
 ## 🧩 Folder Structure
 
 ```bash
