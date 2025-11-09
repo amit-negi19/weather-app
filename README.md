@@ -124,4 +124,4 @@ Add them to .gitignore
 
 ⭐ Show Support
 
-If you like this project, don’t forget to ⭐ star the reposito
+If you like this project, don’t forget to ⭐ star the repository.
