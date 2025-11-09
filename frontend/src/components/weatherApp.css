@@ -1,0 +1,126 @@
+/* ====== Background Container ====== */
+.weather-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+  font-family: "Poppins", sans-serif;
+}
+
+/* ====== Weather Card ====== */
+.weather-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 40px 50px;
+  width: 400px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+/* ====== Title ====== */
+.app-title {
+  font-size: 28px;
+  color: #1a237e;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.icon {
+  font-size: 34px;
+  margin-right: 8px;
+}
+
+/* ====== Search Box ====== */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.search-box input {
+  width: 65%;
+  padding: 10px 15px;
+  border: 2px solid #bbdefb;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #2196f3;
+}
+
+.search-box button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #1976d2;
+}
+
+.search-box button:disabled {
+  background-color: gray;
+}
+
+/* ====== Weather Info ====== */
+.weather-info h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.weather-info h1 {
+  font-size: 60px;
+  color: #1a237e;
+  font-weight: bold;
+}
+
+.condition {
+  font-size: 20px;
+  color: #546e7a;
+  margin-bottom: 20px;
+}
+
+.extra-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  background-color: #e3f2fd;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.extra-info div {
+  font-size: 15px;
+  color: #0d47a1;
+}
+
+.feels {
+  color: #455a64;
+  font-size: 16px;
+}
+
+/* ====== Error / Placeholder ====== */
+.error-text {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.placeholder {
+  color: #607d8b;
+  margin-top: 20px;
+  font-size: 16px;
+}
