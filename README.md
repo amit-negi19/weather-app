@@ -85,20 +85,20 @@ Sample Response:
   "windSpeed": 3.6,
   "visibility": 3.0
 }
+## 🧩 Folder Structure
 
-🧑‍💻 Folder Structure
+```bash
 weather-app/
-│
-├── backend/                 # Spring Boot backend
+├── backend/            # Spring Boot backend
 │   ├── src/main/java/...
 │   ├── build.gradle
 │   └── settings.gradle
 │
-├── frontend/                # React frontend
+├── frontend/           # React frontend
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── WeatherApp.jsx
-│   │   │   └── WeatherApp.css
+│   │   │   ├── WeatherApp.css
 │   │   └── App.js
 │   ├── package.json
 │   └── public/
